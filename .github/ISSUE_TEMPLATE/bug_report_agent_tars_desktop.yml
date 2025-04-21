@@ -26,8 +26,8 @@ body:
       - label: Setting
       - label: UI
       - label: Other (please specify in description)
-    validations:
-      required: true
+  validations:
+    required: true
 - type: checkboxes
   attributes:
     label: Model Provider
@@ -39,8 +39,8 @@ body:
       - label: OpenAI
       - label: Azure OpenAI
       - label: Other (please specify in description)
-    validations:
-      required: true
+  validations:
+    required: true
 - type: checkboxes
   attributes:
     label: Search Provider
@@ -53,8 +53,8 @@ body:
       - label: Duckduckgo
       - label: SearXNG
       - label: Other (please specify in description)
-    # validations:
-    #   required: true
+  validations:
+    required: true
 - type: textarea
   attributes:
     label: Problem Description
@@ -65,8 +65,8 @@ body:
       - Expected: The application should display search results.
       - Actual: The application shows an empty screen with no errors.
       [Attach actual screenshots here, if available.]
-  # validations:
-  #   required: true
+  validations:
+    required: true
 - type: textarea
   attributes:
     label: Error Logs
@@ -74,5 +74,5 @@ body:
       Please provide the error logs. You can find them under Help -> View Logs in the application.
     placeholder: |
       Copy and paste the relevant logs here.
-  # validations:
-  #   required: false
+  validations:
+    required: false
