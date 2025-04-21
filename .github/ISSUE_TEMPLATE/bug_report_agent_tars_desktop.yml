@@ -1,7 +1,6 @@
 name: "🐞 Agent TARS Desktop Bug Report"
 description: "Report an issue with Agent TARS Desktop App"
 title: "[Bug Report]: "
-type: Bug
 labels: ["Agent TARS", "Bug"]
 body:
 - type: input
@@ -26,8 +25,7 @@ body:
       - label: Setting
       - label: UI
       - label: Other (please specify in description)
-    validations:
-      required: true
+    required: true
 - type: checkboxes
   attributes:
     label: Model Provider
@@ -39,8 +37,7 @@ body:
       - label: OpenAI
       - label: Azure OpenAI
       - label: Other (please specify in description)
-    validations:
-      required: true
+    required: true
 - type: checkboxes
   attributes:
     label: Search Provider
@@ -53,8 +50,7 @@ body:
       - label: Duckduckgo
       - label: SearXNG
       - label: Other (please specify in description)
-    validations:
-      required: true
+    required: true
 - type: textarea
   attributes:
     label: Problem Description
