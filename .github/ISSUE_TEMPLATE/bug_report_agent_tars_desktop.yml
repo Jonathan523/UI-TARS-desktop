@@ -1,7 +1,6 @@
 name: "🐞 Agent TARS Desktop Bug Report"
 description: "Report an issue with Agent TARS Desktop App"
 title: "[Bug Report]: "
-type: "Bug"
 labels: ["Agent TARS", "Bug"]
 body:
 - type: input
