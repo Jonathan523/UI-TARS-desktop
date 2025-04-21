@@ -53,8 +53,8 @@ body:
       - label: Duckduckgo
       - label: SearXNG
       - label: Other (please specify in description)
-      validations:
-        required: true
+    validations:
+      required: true
 - type: textarea
   attributes:
     label: Problem Description
