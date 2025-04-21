@@ -18,8 +18,7 @@ body:
     description: |
       Select the type of issue you are experiencing.
     options:
-      - label: Select a issue type 👇
-        required: true
+      - label: Select an issue type 👇
       - label: Agent Core
       - label: MCP
       - label: Search
@@ -27,6 +26,8 @@ body:
       - label: Setting
       - label: UI
       - label: Other (please specify in description)
+    validations:
+      required: true
 - type: checkboxes
   attributes:
     label: Model Provider
@@ -34,24 +35,26 @@ body:
       Select the planning model provider you were using when the issue occurred.
     options:
       - label: Select a model provider 👇
-        required: false
       - label: Anthropic
       - label: OpenAI
       - label: Azure OpenAI
       - label: Other (please specify in description)
+    validations:
+      required: true
 - type: checkboxes
   attributes:
     label: Search Provider
     description: |
       Select the search provider you were using when the issue occurred.
     options:
-      - label: Select a model provider 👇
-        required: false
+      - label: Select a search provider 👇
       - label: Local Browser Search
       - label: Travily
       - label: Duckduckgo
       - label: SearXNG
       - label: Other (please specify in description)
+      validations:
+        required: true
 - type: textarea
   attributes:
     label: Problem Description
